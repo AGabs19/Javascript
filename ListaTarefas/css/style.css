@@ -1,0 +1,56 @@
+@import url('../scripts/main.js');
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+body{
+    background: var(--primary-color-darker)
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    margin: 50px auto;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container p{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color: pink;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.tarefas{
+    text-align: left;
+    font-size: 600;
+    margin: 30px;
+    line-height: 1.5em;
+}
+
+.btn-tarefa{
+    padding: 5px;
+    background-color: pink;
+    border-radius: 5px;
+    border: none;
+}
+
+.apagar{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+}
